@@ -11,11 +11,11 @@ import { Component } from 'react';
 
 const returnClarifaiRequestOptions = (imgURL) => {
   // Your PAT (Personal Access Token) can be found in the portal under Authentification
-  const PAT = 'f55dfcf9747849b19aa4f98de5f8be44';
+  const PAT = '';
   // Specify the correct user_id/app_id pairings
   // Since you're making inferences outside your app's scope
-  const USER_ID = 'lelinh';       
-  const APP_ID = 'my-first-application-wdlcl';
+  const USER_ID = '';       
+  const APP_ID = '';
   // Change these to whatever model and image URL you want to use
   const IMAGE_URL = imgURL;
 
